@@ -86,7 +86,8 @@ public class Menu {
 	}
 
 	public static void sobre() {
-		System.out.println("\n**********************************************************");
+		System.out.println(Cores.TEXT_BLACK
+						 + "\n**********************************************************");
 		System.out.println("*               Projeto Desenvolvido por:                *");
 		System.out.println("*                                                        *");
 		System.out.println("*  Gabriel Camargo Braz de Almeida - camargoxg@gmail.com *");
