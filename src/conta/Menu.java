@@ -3,10 +3,30 @@ package conta;
 import java.util.Scanner;
 
 import conta.util.Cores;
+import conta.model.ContaCorrente;
+import conta.model.ContaPoupanca;
 
 public class Menu {
 
 	public static void main(String[] args) {
+		
+		/* Teste da Classe Conta Corrente */
+		ContaCorrente contaCorrente1 = new ContaCorrente(2, 123, 1, "Carolina Minarini", 15000.0f, 1000.0f);
+		contaCorrente1.visualizar();
+		contaCorrente1.sacar(12000.0f);
+		contaCorrente1.visualizar();
+		contaCorrente1.depositar(60000.0f);
+		contaCorrente1.visualizar();
+		contaCorrente1.sacar(30000.0f);
+		contaCorrente1.visualizar();
+
+		/* Teste da Classe Conta Poupança */
+		ContaPoupanca contaPoupanca1 = new ContaPoupanca(3, 123, 2, "Mara Camargo", 100000.0f, 53);
+		contaPoupanca1.visualizar();
+		contaPoupanca1.sacar(12000.0f);
+		contaPoupanca1.visualizar();
+		contaPoupanca1.depositar(60000.0f);
+		contaPoupanca1.visualizar();
 
 		Scanner leia = new Scanner(System.in);
 
@@ -15,10 +35,10 @@ public class Menu {
 		while (true) {
 
 			System.out.println(Cores.TEXT_YELLOW + Cores.ANSI_BLACK_BACKGROUND
-							 + "*******************************************************");
-			System.out.println("#                                                     #");
-			System.out.println("#                BANCO DO BRAZIL COM Z                #");
-			System.out.println("#                                                     #");
+					+ "\n*******************************************************");
+			System.out.println("*                                                     *");
+			System.out.println("*                   INNOVATION BANK                   *");
+			System.out.println("*                                                     *");
 			System.out.println("*******************************************************");
 			System.out.println("*                                                     *");
 			System.out.println("*            1 - Criar Conta                          *");
@@ -38,8 +58,8 @@ public class Menu {
 			opcao = leia.nextInt();
 
 			if (opcao == 9) {
-				System.out.println(Cores.TEXT_WHITE_BOLD 
-						+ "\n     Banco do Brazil com Z - O seu Futuro começa aqui!");
+				System.out.println(
+						Cores.TEXT_WHITE_BOLD_BRIGHT + "\n\nInnovaction Bank - Sempre em busca por soluções inovadoras!");
 				sobre();
 				leia.close();
 				System.exit(0);
@@ -86,12 +106,12 @@ public class Menu {
 	}
 
 	public static void sobre() {
-		System.out.println(Cores.TEXT_BLACK
-						 + "\n**********************************************************");
-		System.out.println("*               Projeto Desenvolvido por:                *");
-		System.out.println("*                                                        *");
-		System.out.println("*  Gabriel Camargo Braz de Almeida - camargoxg@gmail.com *");
-		System.out.println("*  github.com/1camargo                                   *");
-		System.out.println("**********************************************************");
+		System.out
+				.println(Cores.TEXT_WHITE_BOLD_BRIGHT + "\n\n***********************************************************");
+		System.out.println("*                Projeto Desenvolvido por:                *");
+		System.out.println("*                                                         *");
+		System.out.println("*  Gabriel Camargo Braz de Almeida - camargoxg@gmail.com  *");
+		System.out.println("*  github.com/1camargo                                    *");
+		System.out.println("***********************************************************");
 	}
 }
