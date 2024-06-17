@@ -10,24 +10,6 @@ public class Menu {
 
 	public static void main(String[] args) {
 		
-		/* Teste da Classe Conta Corrente */
-		ContaCorrente contaCorrente1 = new ContaCorrente(2, 123, 1, "Carolina Minarini", 15000.0f, 1000.0f);
-		contaCorrente1.visualizar();
-		contaCorrente1.sacar(12000.0f);
-		contaCorrente1.visualizar();
-		contaCorrente1.depositar(60000.0f);
-		contaCorrente1.visualizar();
-		contaCorrente1.sacar(30000.0f);
-		contaCorrente1.visualizar();
-
-		/* Teste da Classe Conta Poupança */
-		ContaPoupanca contaPoupanca1 = new ContaPoupanca(3, 123, 2, "Mara Camargo", 100000.0f, 53);
-		contaPoupanca1.visualizar();
-		contaPoupanca1.sacar(12000.0f);
-		contaPoupanca1.visualizar();
-		contaPoupanca1.depositar(60000.0f);
-		contaPoupanca1.visualizar();
-
 		Scanner leia = new Scanner(System.in);
 
 		int opcao;
