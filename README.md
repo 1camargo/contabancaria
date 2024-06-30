@@ -7,14 +7,15 @@
 </p>
 
 <h1 align="center">
-	<img src="https://i.imgur.com/0LCTT1W.png"  alt="Logo"  width=""><br><br>
-    Projeto Conta Bancária
+	<img src="https://i.imgur.com/0LCTT1W.png"  alt="Logo"  width="700"><br><br>
+    Projeto Conta Bancária / Bank Account Project
 </h1>
 
 <div>
     <p align="center">
         <em>
-            Linguagem: Java<br>
+            Linguagem: Java e IDE: Spring Tools Suite<br>
+		Language: Java and IDE: Spring Tools Suite
         <br><br>
         </em>
     <a href="https://www.linkedin.com/in/gabriel--camargo/" target="_blank">
@@ -70,8 +71,8 @@
 <div>
     <p align="center">
     <em>
-        O projeto de conta bancária foi desenvolvido durante o bootcamp da Generation com o objetivo de reforçar os conceitos básicos de lógica de programação em Java e os princípios da programação orientada a objetos (POO).<br><br>
-        The bank account project was developed during Generation's bootcamp with the aim of reinforcing the basic concepts of programming logic in Java and the principles of object-oriented programming (OOP).
+         O projeto de e-commerce do futuro foi desenvolvido no final do primeiro bloco, durante o bootcamp da Generation com o objetivo de reforçar os conceitos básicos da lógica de programação em Java e os princípios da programação orientada a objetos (POO).<br><br>
+        The e-commerce project of the future was developed at the end of the first block, during the Generation bootcamp with the aim of reinforcing the basic concepts of programming logic in Java and the principles of object-oriented programming (OOP).
     </em>
     </p>
 </div>
@@ -119,6 +120,7 @@
 - Interfaces e Classes Abstratas;
 - Programação Genérica;
 - Pacotes e Bibliotecas;
+- Tratamento de Exceções;
 - Depuração e Testes;
 
 <!--
@@ -198,7 +200,7 @@ ng serve
 -->
 
 - [Java](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
-- [Spring Tools](https://spring.io/tools)<br><br>
+- [Spring Tools Suite](https://spring.io/tools)<br><br>
 
 
 <!--## 📝License
