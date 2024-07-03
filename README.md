@@ -71,8 +71,8 @@
 <div>
     <p align="center">
     <em>
-         O projeto de e-commerce do futuro foi desenvolvido no final do primeiro bloco, durante o bootcamp da Generation com o objetivo de reforçar os conceitos básicos da lógica de programação em Java e os princípios da programação orientada a objetos (POO).<br><br>
-        The e-commerce project of the future was developed at the end of the first block, during the Generation bootcamp with the aim of reinforcing the basic concepts of programming logic in Java and the principles of object-oriented programming (OOP).
+         O projeto da Conta Bancária foi desenvolvido no final do primeiro bloco, durante o bootcamp da Generation com o objetivo de reforçar os conceitos básicos da lógica de programação em Java e os princípios da programação orientada a objetos (POO).<br><br>
+        The Bank Account project was developed at the end of the first block, during the Generation bootcamp with the aim of reinforcing the basic concepts of programming logic in Java and the principles of object-oriented programming (OOP).
     </em>
     </p>
 </div>
